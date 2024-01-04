@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    height: 721px;
+    background: #000 url('images/img-homebg-ordi.png') no-repeat center / cover scroll;
+}
