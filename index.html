@@ -9,19 +9,19 @@
 </head>
 
 <body>
-    <div class="header" style="border: 2px solid orangered;">
-        
+    <div class="header">
+
         <div class="nav">
             <img src="images/icon-WallE-white.svg" alt="white icon wall-e" width="50" height="52">
             <ul>
-                <li><a href="">Wall-e</a></li>
-                <li><a href="">Eve</a></li>
-                <li><a href="">McCrea</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#wall-e">Wall-e</a></li>
+                <li><a href="#eve">Eve</a></li>
+                <li><a href="#mccrea">McCrea</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="wall-e-section">
-            <div class="title">Wall - e</div>
+        <div class="wall-e-section" id="wall-e">
+            <div class="title">Wall - E</div>
             <div class="wall-e-icon">
                 <div class="black-icon">
                     <img src="images/icon-wallE.svg" alt="black icon wall-e">
@@ -36,45 +36,49 @@
         </div>
     </div>
 
-    <div class="eve-section">
+    <div class="eve-section" id="eve">
         <div class="eve-title">Eve</div>
         <div class="eve-container">
             <img src="images/img-eve-ordi.svg" alt="eve picture">
-            <div class="eve-container-title">La sonde</div>
-            <div class="eve-text">
-                Elle est chargée de découvrir une source de vie potentielle sur Terre. Elle est tout le contraire de
-                WALL-E : blanche et fuselée, ses formes sont épurées et lisses lui permettent une grande fluidité
-                aérodynamique. Elle peut également tirer des lasers bleus avec son bras. Tête brûlée et ayant mauvais
-                caractère, elle se montre peu démonstrative envers le petit robot. Au fil de l'aventure, elle semble
-                éprouver de l'affection pour lui, voire de l'amour.
+            <div class="eve-box">
+                <div class="eve-container-title">La sonde</div>
+                <div class="eve-text">
+                    Elle est chargée de découvrir une source de vie potentielle sur Terre. Elle est tout le contraire de
+                    <span>WALL-E</span> : blanche et fuselée, ses formes sont épurées et lisses lui permettent une
+                    grande fluidité
+                    aérodynamique. Elle peut également tirer des lasers bleus avec son bras. Tête brûlée et ayant
+                    mauvais
+                    caractère, elle se montre peu démonstrative envers le petit robot. Au fil de l'aventure, elle semble
+                    éprouver de l'affection pour lui, voire de l'amour.
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="captain-section">
+    <div class="captain-section" id="mccrea">
         <div class="captain-title">McCrea</div>
         <div class="captain-container">
-            <div class="card">
+            <div class="card one">
                 <div class="captain">Captain</div>
                 <img src="images/icon-captain.svg" alt="icon captain">
             </div>
-            <div class="card">
+            <div class="card two">
                 <div class="captain">Captain</div>
                 <img src="images/icon-captain.svg" alt="icon captain">
             </div>
-            <div class="card">
+            <div class="card three">
                 <div class="captain">Captain</div>
                 <img src="images/icon-captain.svg" alt="icon captain">
             </div>
         </div>
     </div>
 
-    <div class="contact">
-        <form action="">
-            <input type="text" placeholder="Nom">
-            <input type="email" placeholder="Email">
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <input type="submit" value="Envoyer">
+    <div class="contact" id="contact">Contact
+        <form action="" class="formulaire">
+            <input type="text" placeholder="Nom" id="name">
+            <input type="email" placeholder="Email" id="email">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <input type="submit" value="Envoyer" id="button">
         </form>
     </div>
 </body>
